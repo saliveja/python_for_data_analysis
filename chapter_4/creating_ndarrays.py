@@ -13,3 +13,5 @@ print(arr2)
 print('\n')
 print(arr2.ndim)
 # returns 2. lists stacked on top of each other.
+print(arr2.shape)
+# the shape of the array is four numbers in two lines.

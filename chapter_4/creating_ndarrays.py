@@ -18,5 +18,13 @@ print(arr2.shape)
 print('\n')
 
 print(arr1.dtype)
+# float64
+# 64 refers to the memory allocated to hold this character,
+# numeric characters with decimals.
+# If a column contains numbers and NaNs (see below),
+# pandas will default to float64, in case your missing value has a decimal.
+# In computing, NaN means 'Not a Number' - numeric data type that can be
+# interpreted as a value that is undefined or unrepresentable.
 print(arr2.dtype)
+# int64 is for storing whole numbers
 

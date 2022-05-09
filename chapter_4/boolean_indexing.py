@@ -52,3 +52,8 @@ print("\n")
 data[data < 0] = 0
 print(data)
 # all negative data prints as 0
+print("\n")
+
+# change value of name in boolean array
+data[names != "Joe"] = 7
+print(data)

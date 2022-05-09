@@ -36,3 +36,13 @@ print("\n")
 cond = names == 'Bob'
 print("\n")
 print(data[~cond])
+
+# multiple boolean conditions
+mask = (names == 'Bob') | (names == 'Will')
+# '&' is used instead of 'and' for conditions
+# | is used for 'or'
+# the usually used and , or will not work
+# mask = Bob or Will
+print(mask)
+print("\n")
+print(data[mask])

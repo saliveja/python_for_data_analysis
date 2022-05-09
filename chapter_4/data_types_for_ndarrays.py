@@ -31,4 +31,7 @@ int_array = np.arange(10)
 calibers = np.array([.22, .270, .357, .380, .44, .50], dtype=np.float64)
 print(int_array.astype(calibers.dtype))
 
+# shorthand code string for dtype
+empty_uint32 = np.empty(8, dtype='u4')
+print(empty_uint32)
 

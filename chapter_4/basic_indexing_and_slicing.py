@@ -23,3 +23,8 @@ arr_slice[:] = 64
 # the modifications are permanent. NumPy makes no copies.
 print(arr)
 # to make a copy we can instead write arr[5:8].copy()
+
+# addressing elements in an array
+arr2d = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
+print(arr2d[2])
+# printing element in position 2 in the array --> [7, 8, 9]

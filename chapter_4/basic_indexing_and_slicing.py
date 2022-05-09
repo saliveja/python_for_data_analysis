@@ -35,3 +35,9 @@ print(arr2d[0][2])
 # index 2 which is number 3
 # we can also write print(arr2d[0, 2])
 
+# multidimensional arrays
+arr3d = np.array([[[1, 2, 3], [4, 5, 6]], [[7, 8, 9], [10, 11, 12]]])
+print(arr3d)
+print(arr3d[0])
+# this is a 2x3 array
+

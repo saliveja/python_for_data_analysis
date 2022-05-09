@@ -28,3 +28,10 @@ print(arr)
 arr2d = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
 print(arr2d[2])
 # printing element in position 2 in the array --> [7, 8, 9]
+
+# addressing individual elements within an array list
+print(arr2d[0][2])
+# this points to the first list in the array [1, 2, 3]
+# index 2 which is number 3
+# we can also write print(arr2d[0, 2])
+

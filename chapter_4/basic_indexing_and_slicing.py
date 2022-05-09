@@ -22,3 +22,4 @@ arr_slice[:] = 64
 # assigning value 64 to all values in the slice
 # the modifications are permanent. NumPy makes no copies.
 print(arr)
+# to make a copy we can instead write arr[5:8].copy()

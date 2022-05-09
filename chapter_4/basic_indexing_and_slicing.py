@@ -41,3 +41,14 @@ print(arr3d)
 print(arr3d[0])
 # this is a 2x3 array
 
+# copying values in arrays
+old_values = arr3d[0].copy()
+# making a copy of the original values in index 0
+arr3d[0] = 42
+# position zero in the array is the first two lists
+# all values in them are replaced by 42
+print(arr3d)
+arr3d[0] = old_values
+# re-assigning the old values to index 0
+print(arr3d)
+

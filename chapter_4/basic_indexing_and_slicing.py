@@ -52,3 +52,12 @@ arr3d[0] = old_values
 # re-assigning the old values to index 0
 print(arr3d)
 
+# indexes with arrays
+print(arr3d[1, 0])
+# addresses the first position (as the two first and the two lists are
+# respectively connected, index one is the third list
+# the number 0 is referring to the first list of the last two
+x = arr3d[1]
+print(x)
+# printing index 1 --> list three and four
+

@@ -46,3 +46,9 @@ mask = (names == 'Bob') | (names == 'Will')
 print(mask)
 print("\n")
 print(data[mask])
+print("\n")
+
+# setting all negative data to 0
+data[data < 0] = 0
+print(data)
+# all negative data prints as 0

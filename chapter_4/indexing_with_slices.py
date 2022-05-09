@@ -29,7 +29,7 @@ print(arr2d[:2, 2])
 
 print(arr2d[:, :1])
 # colon means the whole array
-# :1 meand the first number in each row --> 1, 4, 7
+# :1 means the first number in each row --> 1, 4, 7
 
 arr2d[:2, 1:] = 0
 # first two rows

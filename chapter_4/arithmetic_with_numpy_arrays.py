@@ -14,3 +14,4 @@ print(arr ** 0.5)
 arr2 = np.array([[0., 4., 1.], [7., 2., 12]])
 print(arr2)
 print(arr2 > arr)
+# evaluating operations between differently sized arrays is called broadcasting

@@ -22,4 +22,8 @@ print(arr)
 # printing the sequence as shown
 print(arr.astype(np.int32))
 
+# using astype to convert string to numeric form
+numeric_strings = np.array(['1.25', '-9.6', '42'], dtype=np.string_)
+print(numeric_strings.astype(float))
+
 

@@ -17,3 +17,22 @@ print(arr2d[:2, 1:])
 # this means to slice the first two rows
 # from index one until the end
 # in this case, two numbers will be printed for each row
+
+# specifying slices
+print(arr2d[1, :2])
+# index one --> the last two list/rows
+# the first two numbers/columns [4, 5]
+
+print(arr2d[:2, 2])
+# the first two rows
+# colums with index two, meaning 3 and 6
+
+print(arr2d[:, :1])
+# colon means the whole array
+# :1 meand the first number in each row --> 1, 4, 7
+
+arr2d[:2, 1:] = 0
+# first two rows
+# values from index 1 until the end
+# replace with 0
+print(arr2d)

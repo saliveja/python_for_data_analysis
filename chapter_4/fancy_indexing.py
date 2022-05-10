@@ -14,3 +14,8 @@ print(arr)
 # selecting an order for the rows
 print(arr[[4, 3, 0, 6]])
 # note the double brackets
+print("\n")
+
+# negative indices
+print(arr[[-3, -5, -7]])
+# this selects rows counting from the end

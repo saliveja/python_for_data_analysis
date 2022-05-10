@@ -29,7 +29,7 @@ print(arr2.dtype)
 # int64 is for storing whole numbers
 print('\n')
 print(np.zeros(10))
-# np.zeros creates arrays of 0 or 1s with given length or shape
+# np.zeros creates arrays of 0s with given length or shape
 # prints ten zeros
 print(np.zeros((3, 6)))
 # note the double brackets

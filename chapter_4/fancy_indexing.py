@@ -10,3 +10,7 @@ for i in range(8):
     arr[i] = i
 
 print(arr)
+
+# selecting an order for the rows
+print(arr[[4, 3, 0, 6]])
+# note the double brackets

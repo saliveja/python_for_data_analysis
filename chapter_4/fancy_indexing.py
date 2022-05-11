@@ -19,3 +19,9 @@ print("\n")
 # negative indices
 print(arr[[-3, -5, -7]])
 # this selects rows counting from the end
+
+# multiple index arrays
+arr = np.arange(32).reshape((8, 4))
+# array with numbers 1-31, with 8 rows and 4 columns
+print("\n")
+print(arr)

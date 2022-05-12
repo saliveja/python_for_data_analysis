@@ -37,6 +37,25 @@ remainder, whole_part = np.modf(arr)
 # (array([ 0. ,  0.5]), array([ 0.,  3.]))
 print(remainder)
 print(whole_part)
+print("\n")
+
+# unfuncs, optional out argument
+print(arr)
+print("\n")
+try:
+    print(np.sqrt(arr))
+except RuntimeWarning:
+    print('nan')
+print("\n")
+
+try:
+    print(np.sqrt(arr, arr))
+except RuntimeWarning:
+    print('nan')
+    # optional output onle worked sometimes
+    # look into more
+    # used try, except instead
+
 
 
 

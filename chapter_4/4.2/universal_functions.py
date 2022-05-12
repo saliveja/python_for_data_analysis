@@ -52,7 +52,7 @@ try:
     print(np.sqrt(arr, arr))
 except RuntimeWarning:
     print('nan')
-    # optional output onle worked sometimes
+    # optional output only worked sometimes
     # look into more
     # used try, except instead
 

@@ -47,4 +47,7 @@ arr.T										| this displays the columns in the order of rows and rows as colu
 np.dot(arr.T, arr)								| computing inner matrix product: row 1, index  0 * row 2, index 0 + row 2, index 1 + row 2, index 2 etc		|
 arr.transpose((1, 0, 2))							| swapping axes to: row 1, row 3, row 2, row 4									|
 arr.swapaxes(1, 2)								| each section changes to rows to columns and columns to rows							|
+np.maximum(x, y)								| x = np.random.randn(8), y = np.random.randn(8). returns the biggest numbers from x and y into a single array	|
+np.modf([0, 3.5])								| return the fractional and integral parts of an array --> [0, 0.5] and [0, 3]					|
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	        

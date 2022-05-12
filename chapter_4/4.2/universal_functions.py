@@ -7,5 +7,7 @@ print("\n")
 # sqrt
 print(np.sqrt(arr))
 # sqrt return the non-negative square-root of an array
+print("\n")
+
 
 

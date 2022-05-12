@@ -25,3 +25,13 @@ arr = np.arange(32).reshape((8, 4))
 # array with numbers 1-31, with 8 rows and 4 columns
 print("\n")
 print(arr)
+print("\n")
+print(arr[[1, 5, 7, 2], [0, 3, 1, 2]])
+# the first bracket selects the row
+# the second bracket selects the column
+# fancy indexing unlike slicing always copies the data into a new array
+print("\n")
+print(arr[[1, 5, 7, 2]][:, [0, 3, 1, 2]])
+# the order of the column is the first index
+# the last index and the two in the middle
+# [4, 5, 6, 7] becomes [4, 7, 5, 6]

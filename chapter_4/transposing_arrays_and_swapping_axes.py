@@ -41,3 +41,4 @@ print("\n")
 # swapaxes()
 print(arr.swapaxes(1, 2))
 # each section changes to rows to columns and columns to rows
+# swapaxes makes no copy of the data

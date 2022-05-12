@@ -31,4 +31,8 @@ arr = np.arange(16).reshape((2, 2, 4))
 # four columns
 
 print("\n")
-print(arr)
+# print(arr)
+print("\n")
+
+print(arr.transpose((1, 0, 2)))
+# swapping axes to: row 1, row 3, row 2, row 4

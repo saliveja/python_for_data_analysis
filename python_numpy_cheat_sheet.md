@@ -43,4 +43,7 @@ arr[[-3, -5, -7]]								| selects rows counting from the end											|
 arr[[4, 3, 0, 6]]								| selecting order for rows (in this case 1-10)									|
 arr = np.arange(32).reshape((8, 4))						| array with numbers 1-31, with 8 rows and 4 columns									|
 arr[[1, 5, 7, 2], [0, 3, 1, 2]]						| the first bracket selects the row, the second bracket selects the column						|
+arr.T										| this displays the columns in the order of rows and rows as columns							|
+np.dot(arr.T, arr)								| computing inner matrix product: row 1, index  0 * row 2, index 0 + row 2, index 1 + row 2, index 2 etc		|
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------	        

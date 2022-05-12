@@ -23,3 +23,4 @@ print("\n")
 print(np.dot(arr.T, arr))
 # this mean row 1, index  0 * row 2, index 0 + row 2, index 1 + row 2, index 2
 # it continues in the same fashion with all number addressing the row below
+

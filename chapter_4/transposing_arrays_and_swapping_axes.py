@@ -24,3 +24,11 @@ print(np.dot(arr.T, arr))
 # this mean row 1, index  0 * row 2, index 0 + row 2, index 1 + row 2, index 2
 # it continues in the same fashion with all number addressing the row below
 
+# higher dimensional arrays
+arr = np.arange(16).reshape((2, 2, 4))
+# two sections
+# two rows
+# four columns
+
+print("\n")
+print(arr)

@@ -36,3 +36,8 @@ print("\n")
 
 print(arr.transpose((1, 0, 2)))
 # swapping axes to: row 1, row 3, row 2, row 4
+print("\n")
+
+# swapaxes()
+print(arr.swapaxes(1, 2))
+# each section changes to rows to columns and columns to rows

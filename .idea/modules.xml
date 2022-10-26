@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/src/pythonProject/.idea/pythonProject.iml" filepath="$USER_HOME$/src/pythonProject/.idea/pythonProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/python_for_data_analysis.iml" filepath="$PROJECT_DIR$/.idea/python_for_data_analysis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../sideprojects/.idea/sideprojects.iml" filepath="$PROJECT_DIR$/../sideprojects/.idea/sideprojects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../trading/.idea/trading.iml" filepath="$PROJECT_DIR$/../trading/.idea/trading.iml" />
+      <module fileurl="file://$USER_HOME$/src/whallets/.idea/whallets.iml" filepath="$USER_HOME$/src/whallets/.idea/whallets.iml" />
+      <module fileurl="file://$USER_HOME$/src/wiki/.idea/wiki.iml" filepath="$USER_HOME$/src/wiki/.idea/wiki.iml" />
     </modules>
   </component>
 </project>

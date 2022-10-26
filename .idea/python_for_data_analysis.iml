@@ -6,5 +6,10 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="whallets" />
+    <orderEntry type="module" module-name="sideprojects" />
+    <orderEntry type="module" module-name="wiki" />
+    <orderEntry type="module" module-name="pythonProject" />
+    <orderEntry type="module" module-name="trading" />
   </component>
 </module>
